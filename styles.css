@@ -1,0 +1,288 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+img{
+    object-fit: fill;
+    max-width: 92%;
+}
+.container.landing{
+    display:flex;
+    flex-direction: column;
+}
+
+
+#header{
+    padding: 15px;
+    background: #1F2937;
+    height:25px;
+
+}
+
+#header-split{
+    display:flex;
+    align-items:center;
+    justify-items: center;
+    
+}
+
+#header-split .item{
+    flex: auto;
+    width: 0;
+
+}
+
+.header-logo p {
+    margin-left: 20%;
+    color: #F9FAF8;
+    font-size:24px;
+    text-align: justify;
+}
+
+#header-link-container{
+    padding-right:8%;
+    display:flex;
+    align-self:center
+}
+
+#header-link-container .header-link{
+    width:0;
+}
+
+.header-link p{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+
+}
+
+#awesome{
+    
+    background-color:#1F2937;
+    height: 400px;
+    display:flex;
+    align-items: center;
+}
+
+#awesome #awesome-split{
+    display:flex;
+    flex: auto;
+    max-height:100%;
+    padding-bottom: 5%;
+    align-items: center;
+    gap: 20px;
+
+
+}
+#awesome-split .item{
+    flex:1;
+}
+#awesome-split #imagebox{
+    flex: 1 1 auto;
+    width:0;
+    height:100%;
+    margin-right: 8%;
+
+    
+}
+
+.container#signup-stack{
+    gap:10px;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+
+#signup-stack .item{
+    margin-left: 20%;
+    flex:auto;
+    
+
+}
+#awesome .one{
+    height:120px;
+    margin-bottom: 0px;
+    flex:1;
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+#awesome .two{
+    flex:auto;
+    font-size:18px;
+    color: #E5E7EB;
+}
+#signup-button{
+    display:flex;
+    width: 120px;
+    height: 35px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    font-size:18px;
+}
+#signup-button p{
+    flex:auto;
+    color:#E5E7EB;
+    max-height: 100%;
+}
+
+
+#information{
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:3%;
+}
+
+#information .header{
+    font-size:38px;
+    color: #1F2937;
+    font-weight: 800;
+    
+}
+
+#image-box{
+    flex:1;
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:50px;
+    margin-bottom: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:45px;
+
+
+}
+#image-box .container{
+    flex:1;
+    height:320px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+#image-box .image{
+    flex:1;
+    margin:auto;
+    padding:0;
+    height: 160px;
+    width: 160px;
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+}
+
+#image-box .text{
+    flex:1;
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+#quote{
+    height:400px;
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    padding:3%;
+}
+#quote #quote1{
+    margin-top:10%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 0px;
+    flex:auto;
+    height:180px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style:italic;
+    color:#1F2937;
+    text-align: left;
+}
+#quote #quote2{
+    margin:0;
+    text-align: right;
+    margin-right: 8%;
+    margin-bottom:10%;
+}
+#cta{
+    height:350px;
+    display:flex;
+
+}
+#cta #bluething{
+    display:flex;
+    flex:1;
+    background-color:#3882F6;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#bluething #splitter{
+    display:flex;
+    flex:auto;
+
+}
+
+#splitter #textblue{
+    padding-left:80px;
+    padding-top:50px;
+    align-items: center;
+    text-align: left;
+    color: #F9FAF8;
+    
+}
+
+#textblue .header{
+    font-size:24px;
+    font-weight: 700;
+}
+
+#textblue .subtext{
+    font-size:18px;
+    font-weight:500;
+}
+
+#splitter #buttonblue{
+    align-self: center;
+    border-radius:5px;
+    outline: 2px solid white;
+    height:25px;
+    width:120px;
+    text-align: center;
+    color:#F9FAF8;
+    margin-left: 25%;
+    align-items: center;
+
+}
+
+#buttonblue p{
+    max-height: 100%;
+}
+
+.footer{
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.footer .copyright {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 36px;
+
+}
